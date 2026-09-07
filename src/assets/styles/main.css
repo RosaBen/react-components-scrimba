@@ -11,13 +11,11 @@
 
 header {
   background: #8195ee;
-  color: 080808;
   height: 80px;
   padding: 1rem;
   position: relative;
+  color: #080808;
 }
-
-/* Navbar */
 
 nav {
   display: flex;
@@ -46,7 +44,6 @@ nav .icon {
   cursor: pointer;
 }
 
-/* animated border */
 header .header-border {
   content: "";
   height: 90px;
@@ -73,11 +70,9 @@ header .header-border {
   }
 }
 
-/* navbar modal */
-
 header .modal {
   position: absolute;
-  top: 6rem;
+  top: 5.6rem;
   right: 0;
   width: 150px;
   height: auto;
@@ -94,17 +89,22 @@ header .modal-links {
   padding-left: 0.5rem;
 }
 
-header .modal-links a,
-header .modal button {
-  color: #8195ee;
+header a {
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
+header .modal-links a,
+header .modal button {
+  color: #8195ee;
+}
+
 header .modal button {
   font-size: 1.5rem;
+  font-weight: 700;
   background: #080808;
+  font-family: "Permanent Marker", cursive;
 }
 
 header .modal-links a:hover,
