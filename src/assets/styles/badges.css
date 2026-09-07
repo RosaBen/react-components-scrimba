@@ -1,0 +1,35 @@
+.badges {
+  display: grid;
+  place-items: center;
+  padding-bottom: 2rem;
+  grid-template-columns: 1fr;
+}
+
+.badges h2 {
+  margin-bottom: 1rem;
+}
+
+.badges section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  place-items: center;
+  margin-bottom: 2rem;
+}
+
+.badges h3 {
+  color: #1d3fd7;
+  grid-column: 1 / span 2;
+  margin-bottom: 0.5rem;
+}
+.badges button {
+  width: 100px;
+  padding: 1rem;
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: 2px 2px 5px #080808;
+}
+
+.pill-badges button {
+  border-radius: 2rem;
+}

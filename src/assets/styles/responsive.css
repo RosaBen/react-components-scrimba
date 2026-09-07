@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
@@ -8,9 +8,25 @@
     justify-content: space-between;
     padding-right: 0.5rem;
   }
-}
 
-@media screen and (min-width: 768px) {
+  .badges {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .badges h2 {
+    grid-column: 1 / span 2;
+  }
+
+  .badges section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .badges h3 {
+    grid-column: 1 / span 3;
+  }
+} */
+
+/* @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
@@ -31,4 +47,4 @@
   nav .desktop-nav a:hover {
     opacity: 0.5;
   }
-}
+} */
