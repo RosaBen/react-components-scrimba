@@ -1,0 +1,34 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  header .modal {
+    width: 200px;
+    justify-content: space-between;
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  nav .icon {
+    display: none;
+  }
+
+  nav .desktop-nav {
+    display: flex;
+    gap: 1rem;
+  }
+
+  nav .desktop-nav a {
+    color: #080808;
+  }
+
+  nav .desktop-nav a:hover {
+    opacity: 0.5;
+  }
+}

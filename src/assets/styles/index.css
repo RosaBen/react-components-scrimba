@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+a,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: grey;
+  color: #080808;
+}
+
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a,
+button {
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+
+h2 {
+  font-family: "Permanent Marker", cursive;
+}
