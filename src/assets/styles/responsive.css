@@ -1,4 +1,4 @@
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
@@ -24,9 +24,21 @@
   .badges h3 {
     grid-column: 1 / span 3;
   }
-} */
 
-/* @media screen and (min-width: 1200px) {
+  .banners section {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .banners section h3 {
+    grid-column: 1 / span 2;
+  }
+
+  .multi-line .banner-item {
+    min-height: 152px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
@@ -47,4 +59,21 @@
   nav .desktop-nav a:hover {
     opacity: 0.5;
   }
-} */
+
+  .banners {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+
+  .banners h2 {
+    grid-column: 1 / span 2;
+  }
+
+  .banners section {
+    grid-template-columns: 1fr;
+  }
+
+  .banners section h3 {
+    grid-column: 1;
+  }
+}

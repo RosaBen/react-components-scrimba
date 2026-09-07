@@ -1,0 +1,45 @@
+.banners {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+.banners h2 {
+  margin-bottom: 1rem;
+}
+
+.banners section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  place-items: center;
+}
+
+.banners section h3 {
+  margin-top: 1rem;
+}
+
+.banners .single-line .description {
+  display: none;
+}
+
+.banner-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-width: 336px;
+  padding: 0.5rem;
+}
+
+.banner-item h4 {
+  justify-self: center;
+  margin-bottom: 0.5rem;
+}
+
+.banner-item .title {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-bottom: 0.5rem;
+}
