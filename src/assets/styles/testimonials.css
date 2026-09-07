@@ -1,0 +1,50 @@
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+.blue-bg {
+  background: #2545b8;
+  color: #ffffff;
+  margin-top: -8rem;
+  padding-top: 10rem;
+  width: 350px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 5rem;
+}
+
+.testimonials .picture {
+  width: 320px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 1rem;
+  place-items: center;
+  margin-top: 2rem;
+}
+
+.testimonials .profil {
+  position: absolute;
+  width: 344px;
+  height: 600px;
+  object-fit: cover;
+  top: -5rem;
+}
+
+.quote {
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+cite {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
