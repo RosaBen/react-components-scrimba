@@ -1,0 +1,113 @@
+.container {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  background: white;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+header {
+  background: #8195ee;
+  color: 080808;
+  height: 80px;
+  padding: 1rem;
+  position: relative;
+}
+
+/* Navbar */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav .brand img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+nav .brand h1 {
+  font-size: 1.2rem;
+}
+
+nav .icon {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+/* animated border */
+header .header-border {
+  content: "";
+  height: 90px;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #667eea 0%, #764ba2 50%, #0000ff 100%);
+  background-size: 200% 200%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  animation: gradient-wave-v 12s ease infinite;
+  overflow: hidden;
+}
+
+@keyframes gradient-wave-v {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* navbar modal */
+
+header .modal {
+  position: absolute;
+  top: 6rem;
+  right: 0;
+  width: 150px;
+  height: auto;
+  display: flex;
+  align-items: baseline;
+  background: #080808;
+  padding-bottom: 1rem;
+}
+
+header .modal-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+header .modal-links a,
+header .modal button {
+  color: #8195ee;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+header .modal button {
+  font-size: 1.5rem;
+  background: #080808;
+}
+
+header .modal-links a:hover,
+header .modal button:hover {
+  opacity: 0.5;
+}
