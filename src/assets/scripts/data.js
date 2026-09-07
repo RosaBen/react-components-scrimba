@@ -137,7 +137,7 @@ export const colorToolTips = [
   },
 ];
 
-export const pages = ["home", "badge", "banner", "card", "testimonial", "tooltip", "toast"];
+export const pages = ["badges", "banners", "cards", "testimonials", "tooltips", "toasts"];
 
 export const imagesComponents = [
   {
