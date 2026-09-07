@@ -47,4 +47,9 @@ cite {
   flex-direction: column;
   gap: 0.5rem;
   margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+cite span {
+  font-weight: 300;
 }
