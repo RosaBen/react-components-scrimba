@@ -26,8 +26,6 @@ import "./assets/styles/responsive.css";
 
 // scripts
 import useToggle from "./assets/hooks/useToggle";
-import { pages } from "./assets/scripts/data";
-import { randomIndex } from "./assets/scripts/utils";
 
 const ToggleContext = createContext();
 
