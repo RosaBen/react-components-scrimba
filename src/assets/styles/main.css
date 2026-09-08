@@ -9,7 +9,8 @@ main.banners,
 main.testimonials,
 main.cards,
 main.toasts,
-main.tooltips {
+main.tooltips,
+main.home {
   display: grid;
   place-items: center;
   padding: 1rem 1rem 2rem;

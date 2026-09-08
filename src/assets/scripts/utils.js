@@ -4,7 +4,4 @@ export function capitalizeLetter (word) {
 
 }
 
-export function randomIndex (arr) {
-  return Math.floor(Math.random() * arr.length);
-}
 
