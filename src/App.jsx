@@ -4,6 +4,7 @@ import { createContext } from "react";
 
 // components
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 // pages
 import Home from "./pages/Home";
@@ -25,8 +26,8 @@ import "./assets/styles/responsive.css";
 
 // scripts
 import useToggle from "./assets/hooks/useToggle";
-
-// images
+import { pages } from "./assets/scripts/data";
+import { randomIndex } from "./assets/scripts/utils";
 
 const ToggleContext = createContext();
 
@@ -47,6 +48,7 @@ function App() {
             <Route path="/toasts" element={<Toasts />} />
           </Routes>
         </div>
+        <Footer />
       </ToggleContext.Provider>
     </BrowserRouter>
   );

@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { colorBannersToasts } from "../assets/scripts/data";
-import capitalizeLetter from "../assets/scripts/utils";
+import { capitalizeLetter } from "../assets/scripts/utils";
 import clsx from "clsx";
 
 export default function BannersComp() {

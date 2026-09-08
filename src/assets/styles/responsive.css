@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
@@ -125,9 +125,9 @@
   .tooltips .light h3 {
     margin-top: 0.5rem;
   }
-}
+} */
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
@@ -195,4 +195,4 @@
   .toasts .toast-item {
     width: 500px;
   }
-}
+} */
