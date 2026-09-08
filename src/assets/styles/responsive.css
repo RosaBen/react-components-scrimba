@@ -39,10 +39,34 @@
 
   .blue-bg {
     width: 700px;
+    height: 300px;
+    margin-top: -22rem;
+    padding: 1.5rem 0;
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .testimonials .picture {
+    height: 400px;
+    justify-self: flex-start;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+
+  .testimonials .profil {
+    border-radius: 1rem;
+    top: -3rem;
+  }
+
+  .quote,
+  blockquote,
+  cite {
+    grid-column: 2;
+    padding-left: 5.5rem;
   }
 }
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
@@ -114,4 +138,4 @@
   .quote {
     padding-top: 2rem;
   }
-}
+} */
