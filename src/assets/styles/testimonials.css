@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
+  margin-top: 2rem;
 }
 
 /* with picture */
@@ -9,8 +10,7 @@
 .blue-bg {
   background: #2545b8;
   color: #ffffff;
-  margin-top: -8rem;
-  padding-top: 10rem;
+  margin-top: -5rem;
   width: 350px;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -37,11 +37,16 @@
 
 .quote {
   margin-bottom: 1rem;
+  margin-top: 6rem;
 }
 
 .blue-bg blockquote {
   line-height: 1.4;
   margin-bottom: 1rem;
+}
+
+.blue-bg cite span {
+  color: #ffffff;
 }
 
 cite {
@@ -74,26 +79,26 @@ cite span {
   color: #2e59f3;
 }
 
-.testimonials .texts {
+.testimonials .txt {
   padding: 1.5rem;
 }
-.testimonials .texts blockquote::before {
+.testimonials .txt blockquote::before {
   position: absolute;
   content: '"';
   left: -0.5rem;
 }
 
-.testimonials .texts blockquote::after {
+.testimonials .txt blockquote::after {
   position: absolute;
   content: '"';
   right: 1.5rem;
 }
 
-.testimonials .texts blockquote {
+.testimonials .txt blockquote {
   margin-bottom: 1.5rem;
   position: relative;
 }
 
-.testimonials .texts cite span {
+.testimonials .txt cite span {
   color: #6b7280;
 }

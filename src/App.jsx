@@ -6,6 +6,7 @@ import { createContext } from "react";
 import Header from "./components/Header";
 
 // pages
+import Home from "./pages/Home";
 import Badges from "./pages/Badges";
 import Banners from "./pages/Banners";
 import Testimonials from "./pages/Testimonials";
@@ -32,6 +33,7 @@ function App() {
         <div className="container">
           <Header />
           <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/badges" element={<Badges />} />
             <Route path="/banners" element={<Banners />} />
             <Route path="/testimonials" element={<Testimonials />} />

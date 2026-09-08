@@ -58,6 +58,10 @@
     top: -3rem;
   }
 
+  .quote {
+    margin-top: 0;
+  }
+
   .quote,
   blockquote,
   cite {
@@ -65,21 +69,25 @@
     padding-left: 5.5rem;
   }
 
-  .testimonials .texts blockquote::before {
+  .blue-bg blockquote {
+    padding-right: 1rem;
+  }
+
+  .testimonials .txt blockquote::before {
     left: 5rem;
   }
 
-  .testimonials .texts cite {
+  .testimonials .txt cite {
     flex-direction: row;
     justify-self: center;
     gap: 2rem;
   }
 
-  .testimonials .texts cite span {
+  .testimonials .txt cite span {
     position: relative;
   }
 
-  .testimonials .texts cite span::before {
+  .testimonials .txt cite span::before {
     position: absolute;
     content: "/";
     left: -1rem;
@@ -135,16 +143,16 @@
     width: 1000px;
   }
   .quote,
-  blockquote,
-  cite {
+  .blue-bg blockquote,
+  .blue-bg cite {
     padding-left: 1.5rem;
   }
 
-  .testimonials .texts {
-    width: 700px;
+  .testimonials .txt {
+    width: 800px;
   }
 
-  .testimonials .texts blockquote::before {
-    left: 1rem;
+  .testimonials .txt blockquote::before {
+    left: 5rem;
   }
 }
