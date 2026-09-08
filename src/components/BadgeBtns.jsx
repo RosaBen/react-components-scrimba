@@ -1,5 +1,5 @@
 import { colorBadges } from "../assets/scripts/data";
-import capitalizeLetter from "../assets/scripts/utils";
+import { capitalizeLetter } from "../assets/scripts/utils";
 export default function BadgeBtns() {
   return colorBadges.map((item) => {
     const style = {

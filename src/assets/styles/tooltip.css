@@ -7,6 +7,10 @@
   margin-bottom: 2rem;
 }
 
+.tooltips h2 {
+  margin-bottom: 1rem;
+}
+
 .tooltips .dark h3 {
   margin-top: 1rem;
 }
