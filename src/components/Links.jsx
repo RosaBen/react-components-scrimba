@@ -1,16 +1,17 @@
 import { pages } from "../assets/scripts/data";
+import { Link } from "react-router-dom";
 
 export default function Links() {
   const listLinks = pages.map((item) => (
-    <a href={`/${item}`} target="_blank" rel="noopener noreferrer" key={item}>
+    <Link to={`/${item}`} target="_blank" rel="noopener noreferrer" key={item}>
       {item}
-    </a>
+    </Link>
   ));
   return (
     <>
-      <a href="/" target="_blank" rel="noopener noreferrer">
+      <Link to="/" target="_blank" rel="noopener noreferrer">
         home
-      </a>
+      </Link>
       {listLinks}
     </>
   );
