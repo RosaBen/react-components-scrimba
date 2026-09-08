@@ -111,6 +111,20 @@
   .toasts h2 {
     grid-column: 1 / span 2;
   }
+
+  main.tooltips {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  main.tooltips h2 {
+    grid-column: 1 / span 2;
+    margin-bottom: 1rem;
+  }
+
+  .tooltips .dark h3,
+  .tooltips .light h3 {
+    margin-top: 0.5rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
