@@ -9,7 +9,8 @@ main.badges,
 main.banners,
 main.testimonials,
 main.cards,
-main.toasts {
+main.toasts,
+main.tooltips {
   display: grid;
   place-items: center;
   padding: 1rem 1rem 2rem;
