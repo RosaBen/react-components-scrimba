@@ -5,7 +5,7 @@ import useToggle from "../assets/hooks/useToggle";
 import clsx from "clsx";
 
 export default function Testimonials() {
-  const [withImage, setWithImage] = useToggle(true);
+  const [withImage, setWithImage] = useToggle(false);
   const classQuote = clsx(withImage && "blue-bg", !withImage && "txt");
   const classPicture = clsx("no-picture", withImage && "picture");
   return (

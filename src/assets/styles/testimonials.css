@@ -84,7 +84,7 @@ cite span {
 .testimonials .txt blockquote::after {
   position: absolute;
   content: '"';
-  right: 1.5rem;
+  right: 11rem;
 }
 
 .testimonials .txt blockquote {

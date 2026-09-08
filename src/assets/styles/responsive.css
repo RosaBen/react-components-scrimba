@@ -1,4 +1,4 @@
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
@@ -25,7 +25,8 @@
     grid-column: 1 / span 3;
   }
 
-  .banners section {
+  .banners .multi-line,
+  .banners .single-line {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -63,18 +64,22 @@
   }
 
   .quote,
-  blockquote,
-  cite {
+  .blue-bg blockquote,
+  .blue-bg cite {
     grid-column: 2;
-    padding-left: 5.5rem;
   }
 
   .blue-bg blockquote {
     padding-right: 1rem;
+    padding-left: 6.5rem;
   }
 
   .testimonials .txt blockquote::before {
-    left: 5rem;
+    left: -1rem;
+  }
+
+  .testimonials .txt blockquote::after {
+    right: 13rem;
   }
 
   .testimonials .txt cite {
@@ -94,9 +99,21 @@
     font-weight: bold;
     color: #2e59f3;
   }
-} */
 
-/* @media screen and (min-width: 1200px) {
+  .cards .card-container {
+    width: 350px;
+  }
+
+  main.toasts {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .toasts h2 {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
@@ -127,7 +144,8 @@
     grid-column: 1 / span 2;
   }
 
-  .banners section {
+  .banners .multi-line,
+  .banners .single-line {
     grid-template-columns: 1fr;
   }
 
@@ -153,6 +171,14 @@
   }
 
   .testimonials .txt blockquote::before {
-    left: 5rem;
+    left: -1rem;
   }
-} */
+
+  .testimonials .txt blockquote::after {
+    right: 20rem;
+  }
+
+  .toasts .toast-item {
+    width: 500px;
+  }
+}
