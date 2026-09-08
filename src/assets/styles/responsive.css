@@ -36,6 +36,64 @@
   .multi-line .banner-item {
     min-height: 152px;
   }
+
+  .blue-bg {
+    width: 700px;
+    height: 300px;
+    margin-top: -22rem;
+    padding: 1.5rem 0;
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .testimonials .picture {
+    height: 400px;
+    justify-self: flex-start;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+
+  .testimonials .profil {
+    border-radius: 1rem;
+    top: -3rem;
+  }
+
+  .quote {
+    margin-top: 0;
+  }
+
+  .quote,
+  blockquote,
+  cite {
+    grid-column: 2;
+    padding-left: 5.5rem;
+  }
+
+  .blue-bg blockquote {
+    padding-right: 1rem;
+  }
+
+  .testimonials .txt blockquote::before {
+    left: 5rem;
+  }
+
+  .testimonials .txt cite {
+    flex-direction: row;
+    justify-self: center;
+    gap: 2rem;
+  }
+
+  .testimonials .txt cite span {
+    position: relative;
+  }
+
+  .testimonials .txt cite span::before {
+    position: absolute;
+    content: "/";
+    left: -1rem;
+    font-weight: bold;
+    color: #2e59f3;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -75,5 +133,26 @@
 
   .banners section h3 {
     grid-column: 1;
+  }
+
+  .testimonials .picture {
+    margin-left: 10rem;
+  }
+
+  .blue-bg {
+    width: 1000px;
+  }
+  .quote,
+  .blue-bg blockquote,
+  .blue-bg cite {
+    padding-left: 1.5rem;
+  }
+
+  .testimonials .txt {
+    width: 800px;
+  }
+
+  .testimonials .txt blockquote::before {
+    left: 5rem;
   }
 }

@@ -1,4 +1,3 @@
-import { PiX } from "react-icons/pi";
 import { colorBadges } from "../assets/scripts/data";
 import capitalizeLetter from "../assets/scripts/utils";
 export default function BadgeBtns() {

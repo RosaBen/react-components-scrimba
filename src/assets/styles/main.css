@@ -15,6 +15,7 @@ header {
   padding: 1rem;
   position: relative;
   color: #080808;
+  overflow: visible;
 }
 
 nav {
@@ -46,16 +47,17 @@ nav .icon {
 
 header .header-border {
   content: "";
-  height: 90px;
+  height: 10px;
   width: 100%;
   position: absolute;
   background: linear-gradient(45deg, #667eea 0%, #764ba2 50%, #0000ff 100%);
   background-size: 200% 200%;
-  z-index: -1;
-  top: 0;
+  z-index: 5;
+  top: 100%;
   left: 0;
   animation: gradient-wave-v 12s ease infinite;
-  overflow: hidden;
+
+  pointer-events: none;
 }
 
 @keyframes gradient-wave-v {
@@ -74,19 +76,21 @@ header .modal {
   position: absolute;
   top: 5.6rem;
   right: 0;
-  width: 150px;
+  width: 180px;
   height: auto;
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
+  justify-content: center;
   background: #080808;
-  padding-bottom: 1rem;
+  padding: 0 1rem;
+  z-index: 5;
 }
 
 header .modal-links {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  padding-left: 0.5rem;
+  padding: 1.8rem 1.2rem 1.8rem 0;
 }
 
 header a {

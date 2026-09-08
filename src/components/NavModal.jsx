@@ -1,5 +1,5 @@
 import Links from "./Links";
-import { ToggleContext } from "./Header";
+import { ToggleContext } from "../App";
 import { useContext } from "react";
 
 export default function NavModal() {

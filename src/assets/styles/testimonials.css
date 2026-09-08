@@ -1,0 +1,104 @@
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  margin-top: 2rem;
+}
+
+/* with picture */
+
+.blue-bg {
+  background: #2545b8;
+  color: #ffffff;
+  margin-top: -5rem;
+  width: 350px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 5rem;
+}
+
+.testimonials .picture {
+  width: 320px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 1rem;
+  place-items: center;
+  margin-top: 2rem;
+}
+
+.testimonials .profil {
+  position: absolute;
+  width: 344px;
+  height: 600px;
+  object-fit: cover;
+  top: -5rem;
+}
+
+.quote {
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+}
+
+.blue-bg blockquote {
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.blue-bg cite span {
+  color: #ffffff;
+}
+
+cite {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+cite span {
+  font-weight: 300;
+}
+
+.testimonials .no-picture {
+  margin-top: 1rem;
+}
+
+.testimonials .no-picture h3 {
+  display: flex;
+  align-items: center;
+  color: #080808;
+}
+
+.testimonials .no-picture h3 img {
+  padding-right: 0.4rem;
+}
+
+.testimonials .no-picture h3 span {
+  color: #2e59f3;
+}
+
+.testimonials .txt {
+  padding: 1.5rem;
+}
+.testimonials .txt blockquote::before {
+  position: absolute;
+  content: '"';
+  left: -0.5rem;
+}
+
+.testimonials .txt blockquote::after {
+  position: absolute;
+  content: '"';
+  right: 1.5rem;
+}
+
+.testimonials .txt blockquote {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.testimonials .txt cite span {
+  color: #6b7280;
+}
