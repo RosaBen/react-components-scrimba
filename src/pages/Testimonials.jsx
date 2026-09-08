@@ -1,16 +1,34 @@
 import blockquote from "../assets/images/blockquote.svg";
 import workcation from "../assets/images/workcation.svg";
 import profil from "../assets/images/profil.png";
+import useToggle from "../assets/hooks/useToggle";
+import clsx from "clsx";
 
 export default function Testimonials() {
+  const [withImage, setWithImage] = useToggle(false);
+  const classQuote = clsx("texts", withImage && "blue-bg");
+  const classPicture = clsx("no-picture", withImage && "picture");
   return (
     <main className="testimonials">
       <h2>Testimonials</h2>
-      <div className="picture">
-        <img src={profil} alt="smiling woman" className="profil" />
+      <div className={classPicture}>
+        {withImage ? (
+          <img src={profil} alt="smiling woman" className="profil" />
+        ) : (
+          <h3>
+            <img
+              src={workcation}
+              alt="office next to palm tree"
+              className="workcation"
+            />
+            Work<span>cation</span>
+          </h3>
+        )}
       </div>
-      <div className="texts blue-bg">
-        <img src={blockquote} alt="open blockquote" className="quote" />
+      <div className={classQuote}>
+        {withImage && (
+          <img src={blockquote} alt="open blockquote" className="quote" />
+        )}
         <blockquote>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna
           nulla vitae laoreet augue. Amet feugiat est integer dolor auctor

@@ -39,7 +39,7 @@
   margin-bottom: 1rem;
 }
 
-blockquote {
+.blue-bg blockquote {
   line-height: 1.4;
   margin-bottom: 1rem;
 }
@@ -54,4 +54,46 @@ cite {
 
 cite span {
   font-weight: 300;
+}
+
+.testimonials .no-picture {
+  margin-top: 1rem;
+}
+
+.testimonials .no-picture h3 {
+  display: flex;
+  align-items: center;
+  color: #080808;
+}
+
+.testimonials .no-picture h3 img {
+  padding-right: 0.4rem;
+}
+
+.testimonials .no-picture h3 span {
+  color: #2e59f3;
+}
+
+.testimonials .texts {
+  padding: 1.5rem;
+}
+.testimonials .texts blockquote::before {
+  position: absolute;
+  content: '"';
+  left: -0.5rem;
+}
+
+.testimonials .texts blockquote::after {
+  position: absolute;
+  content: '"';
+  right: 1.5rem;
+}
+
+.testimonials .texts blockquote {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.testimonials .texts cite span {
+  color: #6b7280;
 }

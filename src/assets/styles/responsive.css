@@ -64,6 +64,28 @@
     grid-column: 2;
     padding-left: 5.5rem;
   }
+
+  .testimonials .texts blockquote::before {
+    left: 5rem;
+  }
+
+  .testimonials .texts cite {
+    flex-direction: row;
+    justify-self: center;
+    gap: 2rem;
+  }
+
+  .testimonials .texts cite span {
+    position: relative;
+  }
+
+  .testimonials .texts cite span::before {
+    position: absolute;
+    content: "/";
+    left: -1rem;
+    font-weight: bold;
+    color: #2e59f3;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -116,5 +138,13 @@
   blockquote,
   cite {
     padding-left: 1.5rem;
+  }
+
+  .testimonials .texts {
+    width: 700px;
+  }
+
+  .testimonials .texts blockquote::before {
+    left: 1rem;
   }
 }
