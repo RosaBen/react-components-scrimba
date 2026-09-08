@@ -5,6 +5,13 @@
   background: #fafafa;
 }
 
+main {
+  display: grid;
+  place-items: center;
+  padding: 1rem 1rem 2rem;
+  grid-template-columns: 1fr;
+}
+
 nav .desktop-nav {
   display: none;
 }

@@ -1,0 +1,30 @@
+.cards .card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #f7f7f7;
+  margin-top: 3rem;
+  height: 210px;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.cards .card-container img {
+  width: 3rem;
+  height: 3rem;
+  background: #3f75fe;
+  padding: 0.5rem;
+  align-self: center;
+  position: absolute;
+  top: -10%;
+  border-radius: 0.5rem;
+}
+
+.cards .txt h3 {
+  margin-bottom: 1rem;
+}
+
+.cards .card-container:hover {
+  box-shadow: 2px 2px 5px #3f75fe;
+}

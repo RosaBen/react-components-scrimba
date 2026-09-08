@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
@@ -94,9 +94,9 @@
     font-weight: bold;
     color: #2e59f3;
   }
-}
+} */
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
@@ -155,4 +155,4 @@
   .testimonials .txt blockquote::before {
     left: 5rem;
   }
-}
+} */
